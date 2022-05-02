@@ -297,6 +297,24 @@ img {
 .photo-item:not(:last-child) {
   margin-right: 30px;
 }
+.img {
+  position: relative;
+}
+.img-info {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  background: rgba(47, 48, 58, 0.8);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primery-white-color);
+}
 
 /* наша команда */
 .team {
