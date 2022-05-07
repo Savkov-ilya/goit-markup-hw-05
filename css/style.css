@@ -410,6 +410,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: var(--promary-icon-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -453,6 +454,7 @@ img {
   color: var(--promary-icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-item:not(:last-child) {
   margin-left: 0;
@@ -488,6 +490,7 @@ img {
   background-color: var(--promary-button-bacgriund-color);
   border-radius: 4px;
   border-style: unset;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-button:hover,
 .navigation-button:focus {
@@ -646,6 +649,7 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--color-white);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join-icon {
   fill: var(--primery-white-color);
